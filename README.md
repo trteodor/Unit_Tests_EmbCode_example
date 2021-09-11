@@ -54,7 +54,7 @@ The root of the makefile is obviously GNUmakefile. I used this name because Cube
 
 # Summary
 
-The build system I have prepared may need to be modified. As I mentioned, this project was prepared solely for educational purposes
+The build system I have prepared may need to be modified. As I mentioned, this example was prepared solely for educational purposes
 
 In this example i used STM32CubeMX to generate project template for STM32F103
 * Of course, it is not necessary to use STM32CubeMX **_the build system for unit tests is independent._** STM32CubeMX was used only to create template project for microcontroller.
