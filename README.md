@@ -13,7 +13,7 @@ In this example i used STM32CubeMX to generate project template for STM32F103
 	* It may be benefits
 
 To download this repository tap in your command line:
-* git clone --recursive https://github.com/trteodor/UnitTest_InEmbedded_Ex_OnSTM32F103RB
+* git clone --recursive https://github.com/trteodor/UnitTest_InEmbedded_Ex_OnSTM32F103RB_Unity_non-recmake
 
 To compile this project i used:
 * GNU Make 3.81
