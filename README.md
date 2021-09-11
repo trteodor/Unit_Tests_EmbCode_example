@@ -10,7 +10,7 @@ This example usage CubeMX to generate project template for STM32F103
 
 **_Created build system using non recursive makefile and is fully independent_**
 * Evry one tested file may be compilated totally independent! :) 
-* It may be benefits
+	* It may be benefits
 
 To download this repository tap in your command line:
 * git clone --recursive https://github.com/trteodor/UnitTest_InEmbedded_Ex_OnSTM32F103RB
