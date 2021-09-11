@@ -127,7 +127,7 @@ $(EXECUTE_TEST_PROGRAMS):
 	@$(UT_EXE_DIR)/$@
 	@/bin/echo -------------------------
 
-PATTERN:
+Reminder:
 	@/bin/echo ------------------------- 
 #Header it's not source (%.c FILE)
 	@/bin/echo Reminder - after each change in header files, please use: 'test-ra' '('Dependecies are on @TODO list')'
@@ -141,7 +141,7 @@ clean-docs:
 
 test-ra: clean-test createmock $(OBJECTS_FOLDERS) $(EXECUTE_COMPILATION) $(EXECUTE_TEST_PROGRAMS) coverage
 
-test-s: $(EXECUTE_COMPILATION) $(EXECUTE_TEST_PROGRAMS) PATTERN
+test-s: $(EXECUTE_COMPILATION) $(EXECUTE_TEST_PROGRAMS) Reminder
 
 test: test-ra
 
