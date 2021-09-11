@@ -29,8 +29,9 @@ OBJECTS :=
 COVERAGE_SOURCEDIR :=
 
 #######################################
-# dependencies
 #@@@@@TODO@@@@TODO
+# comiplation header dependencies
+# gcovr behavior with diffrent source folder
 #######################################
 # -include $(BUILD_DIR)%.d
 
