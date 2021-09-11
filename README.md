@@ -7,7 +7,7 @@ This project was made for educational purposes. I wanted to learn how to use the
 
 "Link"
 
-The video is in Polish
+In this video, I speak in Polish language
 
 After familiarizing myself with the "makefile" syntax, **_I created my own build system_** for Unit Tests with "Unity"
 * In my opinion, the created building system is very easy and convenient
