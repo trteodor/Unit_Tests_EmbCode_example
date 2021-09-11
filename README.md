@@ -28,7 +28,7 @@ To compile this project i used:
 	* These programs obviously had to be in the ("PATH") path of environment variables
 		* It means that it was possible to use this programs directly from the console
 
-## Call "make" in this example project at him location to show this information:
+ **_Call "make" in this example project at him location to show this information:_**
 
 	Call: make help    -show this information
 	How Use it:
