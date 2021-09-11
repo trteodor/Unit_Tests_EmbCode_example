@@ -26,6 +26,7 @@ UT_EXE_DIR = build/UnitTests/UTexe
 BUILD_DIR = build/UnitTests
 DOC_DIR = docs
 OBJECTS :=
+COVERAGE_SOURCEDIR :=
 
 #######################################
 # dependencies
@@ -37,6 +38,7 @@ include unit-tests/makefile
 
 EXECUTE_TEST_PROGRAMS = $(TEST_PROGRAM)
 OBJECTS_FOLDERS := $(addprefix $(BUILD_DIR)'/'UT_COMPILATION_OUTPUT'/',$(TEST_PROGRAM))
+
 
 
 $(UT_EXE_DIR):
@@ -63,12 +65,12 @@ INC_DIR+= -Ithird_party/Unity/src/
 INC_DIR+= -Ithird_party/cmock/src/ 
 INC_DIR+= -Ibuild//UnitTests/cmock
 
-COVERAGE_SOURCEDIR :=
+
 MOCKED_HEADER :=
 MOCKED_SOURCE :=  
 OBJECTS :=
 #
-#Includes all programs to test
+#Include the ("Makefile") testing program on which the EXECUTE file will be created
 #
 -include unit-tests/$(1)/Makefile
 
@@ -78,9 +80,13 @@ vpath %.c $$(sort $$(dir $$(SRC)))
 UT_CFLAGS +=$$(INC_DIR)
 endef
 
+
+
+
+
 EXECUTE_COMPILATION :=
 
-define MODULE_EXE
+define CREATE_EXECTUE_FILES
 EXECUTE_COMPILATION += $(UT_EXE_DIR)/$(1)
 
 $(UT_EXE_DIR)/$(1): $(UT_EXE_DIR) $(OBJECTS)
@@ -91,19 +97,26 @@ $(UT_EXE_DIR)/$(1): $(UT_EXE_DIR) $(OBJECTS)
 endef
 
 
-define MODULE_TEMPLATE_rule
+
+
+
+define CREATE_OBJECTS
 EXECUTE_COMPILATION += $(1) $(2)
 $(1):
 $(2): $(1)
 	$(UT_CC) -c $$(UT_CFLAGS) -MMD -MP $(1) -o $$@
 endef
 
-define MODULE_rule
-$(foreach SRC,$(SRC),$(eval $(call MODULE_TEMPLATE_rule,$(SRC),$$(OBJECTS))))
+define FOR_EACH_OBJECTS
+$(foreach SRC,$(SRC),$(eval $(call CREATE_OBJECTS,$(SRC),$$(OBJECTS))))
 endef
 
 $(foreach test_program,$(TEST_PROGRAM),$(eval $(call COLLECT_TEST_SOURCES,$(test_program))) \
-$(eval $(call MODULE_rule,$(TEST_PROGRAM))) $(eval $(call MODULE_EXE,$$(test_program))) )
+$(eval $(call FOR_EACH_OBJECTS,$(TEST_PROGRAM))) $(eval $(call CREATE_EXECTUE_FILES,$$(test_program))) )
+
+
+
+
 
 
 $(EXECUTE_TEST_PROGRAMS):
@@ -140,7 +153,7 @@ coverage: $(DOC_DIR)
 	gcovr  -f $(COVERAGE_SOURCEDIR) --object-directory=$(BUILD_DIR) --html --html-details -o $(DOC_DIR)/coverage.html
 
 
-#here must be the ./ i rly dk why the ruby leanguage is so stupid :( )
+#here must be the './' i rly dk why, the ruby leanguage is so stupid :( ;)
 #
 CMOCK_DIR = ./third_party/cmock
 
