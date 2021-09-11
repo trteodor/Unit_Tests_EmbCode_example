@@ -8,7 +8,7 @@ This example usage CubeMX to generate project template for STM32F103
 * Of course, it is not necessary to use STM32CubeMX **_the build system for unit tests is independent._** STM32CubeMX only create template for microcontroller Project.
 	* I am thinking of other microcontrollers like atmega, NXP, Renesas, MicroChip dk else ;) 
 
-**_Created build system using non recursive makefile and is fully independent_**
+## Created build system which using non recursive makefile is fully independent
 * Evry one tested file may be compilated totally independent! :) 
 	* It may be benefits
 
