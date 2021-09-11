@@ -1,4 +1,4 @@
-Hello, in this reposirory i'am learning how use Unity and Cmock framework for unit test in embedded systems:
+Hello, in this repository I learned how to use the Unity and Cmock framework, and the makefile syntax.
 * http://www.throwtheswitch.org/unity
 
 I also got acquainted with the syntax of makefiles and thanks to that I built my own build system
