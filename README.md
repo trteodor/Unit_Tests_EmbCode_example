@@ -1,14 +1,14 @@
 Hello, in this repository I learned how to use the Unity and Cmock framework, and the makefile syntax.
 * http://www.throwtheswitch.org/unity
 
-I got acquainted with the syntax of makefiles and thanks to that I built my own build system
+I got acquainted with the syntax of makefiles and thanks to that **_I built my own build system_**
 * In my opinion, the created building system is very easy and convenient
 
 This example usage CubeMX to generate project template for STM32F103
 * Of course, it is not necessary to use STM32CubeMX **_the build system for unit tests is independent._** STM32CubeMX only create template for microcontroller Project.
 * I am thinking of other microcontrollers like atmega, NXP, Renesas, MicroChip dk else ;) 
 
-Created build system using non recursive makefile
+**_Created build system using non recursive makefile_**
 * Evry one tested file may be compilated totally independent! :) 
 * It may be benefits
 
