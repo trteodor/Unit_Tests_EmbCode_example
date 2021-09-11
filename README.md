@@ -3,7 +3,14 @@
 * 
 * I also got acquainted with the syntax of makefiles and thanks to that I built my own build system
 * In my opinion, the created building system is very easy and convenient
-* 
+*
+* This example usage CubeMX to generate project template for STM32F103
+* But for usage CubeMX isn't require to compile this program
+
+* Created build system using non recursive makefile
+* Evry one tested file may be compilated totally independent! :) 
+* It may be benefits
+
 To download this repository tap in your command line:
 * git clone --recursive https://github.com/trteodor/UnitTest_InEmbedded_Ex_OnSTM32F103RB
 
@@ -12,7 +19,6 @@ To compile this project i used:
 * ruby 2.7.4p191
 * gcovr 5.0
 * gcc 6.3.0
-
 
 * These programs obviously had to be in the ("PATH") path of environment variables
 * It means that it was possible to use this programs directly from the console
