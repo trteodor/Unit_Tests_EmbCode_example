@@ -20,7 +20,6 @@ To compile this project i used:
 
 Call "make" in the project localisation to show this information:
 
--*help:
 -	@echo     Call: make help \ \ \ -show this information
 -	@echo	  How Use it:
 -	@echo	  1. call: make all  \ \ \ -To compile output files for Microcontroller
