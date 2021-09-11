@@ -7,7 +7,7 @@ After familiarizing myself with the "makefiles" syntax, **_I created my own buil
 * In my opinion, the created building system is very easy and convenient
 
 Why I decide create my own build system? When I was able to use Ceedlink..
-* I  wanted to get to know the makefile syntax and Ceedlink is not very intuitive for me(Or I just got to know him too little). 
+* I  wanted to get to know the makefile syntax and Ceedlink is not intuitive for me(Or I just got to know him too little). 
 
 ## Created compilation system, uses a non-recursive makefile and is fully independent
 * Evry one tested file may be compilated totally independent! :) 
