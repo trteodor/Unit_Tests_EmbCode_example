@@ -22,7 +22,8 @@ To compile this project i used:
 * gcc 6.3.0
 	* These programs obviously had to be in the ("PATH") path of environment variables
 		* It means that it was possible to use this programs directly from the console
-
+		
+The build system I have prepared may need to be modified. As I mentioned, it was prepared solely for educational purposes
 
 ## Call "make" in the project localisation to show this information:
 
