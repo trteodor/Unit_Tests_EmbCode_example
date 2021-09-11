@@ -3,7 +3,7 @@ This project was made for educational purposes. I wanted to learn how to use the
 
 *http://www.throwtheswitch.org/unity
 
-I got acquainted with the syntax of makefiles and thanks to that **_I created my own build system_** for Unit Tests with Unity
+After familiarizing myself with the "makefiles" syntax, **_I created my own build system_** for Unit Tests with "Unity"
 * In my opinion, the created building system is very easy and convenient
 
 Why I decide create my own build system? When I was able to use Ceedlink..
