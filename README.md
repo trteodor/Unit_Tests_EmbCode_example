@@ -1,6 +1,5 @@
 ## Hello,
-in this project I learned how to use the Unity and Cmock framework, and the makefile syntax.
-* http://www.throwtheswitch.org/unity
+in this project I learned how to use the Unity and Cmock framework, and the makefile syntax. After completing this project, I know how to run unit tests on embedded systems! :) I also know a bit of makefile syntax.
 
 I got acquainted with the syntax of makefiles and thanks to that **_I created my own build system_** for Unit Tests with Unity
 * In my opinion, the created building system is very easy and convenient
@@ -41,4 +40,7 @@ The build system I have prepared may need to be modified. As I mentioned, it was
 	6. call: make clean-docs    -Remove Docs Folder (currently contain only unit-tests coverage report)
 	6. call: make clean         -Remove build Folder (Carefully)
 
-
+Sources:
+* http://www.throwtheswitch.org/unity
+* https://stackoverflow.com/questions/32532999/double-foreach-in-makepp/32535737#32535737
+* https://www.gnu.org/software/make/manual/make.pdf
