@@ -11,6 +11,7 @@ In this example i used STM32CubeMX to generate project template for STM32F103
 ## Created build system which using non recursive makefile is fully independent
 * Evry one tested file may be compilated totally independent! :) 
 	* It may be benefits
+* Coverage report with gcovr
 
 To download this repository tap in your command line:
 * git clone --recursive https://github.com/trteodor/UnitTest_InEmbedded_Ex_OnSTM32F103RB_Unity_non-recmake
