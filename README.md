@@ -17,7 +17,7 @@ Why I decide create my own build system? When I was able to use Ceedlink..
 To download this repository tap in your command line:
 * git clone --recursive https://github.com/trteodor/UnitTest_InEmbedded_Ex_OnSTM32F103RB_Unity_non-recmake
 
-And after that you can start your adventure! :) 
+Now you can start your adventure! :) 
 
 
 To compile this project i used:
