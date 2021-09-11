@@ -2,8 +2,11 @@
 This project was made for educational purposes. I wanted to learn how to use the "Unity" framework for unit testing in embedded systems. After completing this project, I know how to run unit tests in embedded systems! :) When I completed this project, I also got to know the makefile syntax a bit.
 
 *http://www.throwtheswitch.org/unity
+
 **_Video in which I explain a little more in a practical way about this project:_**
+
 "Link"
+
 Unfortunately, the video is in Polish
 
 After familiarizing myself with the "makefile" syntax, **_I created my own build system_** for Unit Tests with "Unity"
