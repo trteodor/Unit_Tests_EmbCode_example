@@ -17,6 +17,9 @@ Why I decide create my own build system? When I was able to use Ceedlink..
 To download this repository tap in your command line:
 * git clone --recursive https://github.com/trteodor/UnitTest_InEmbedded_Ex_OnSTM32F103RB_Unity_non-recmake
 
+And after that you can start your adventure! :) 
+
+
 To compile this project i used:
 * GNU Make 3.81
 * ruby 2.7.4p191
@@ -24,11 +27,6 @@ To compile this project i used:
 * gcc 6.3.0
 	* These programs obviously had to be in the ("PATH") path of environment variables
 		* It means that it was possible to use this programs directly from the console
-		
-The build system I have prepared may need to be modified. As I mentioned, it was prepared solely for educational purposes
-
-In this example i used STM32CubeMX to generate project template for STM32F103
-* Of course, it is not necessary to use STM32CubeMX **_the build system for unit tests is independent._** STM32CubeMX was used only to create template project for microcontroller.
 
 ## Call "make" in this example project at him location to show this information:
 
@@ -45,7 +43,14 @@ In this example i used STM32CubeMX to generate project template for STM32F103
 	6. call: make clean-docs    -Remove Docs Folder (currently contain only unit-tests coverage report)
 	6. call: make clean         -Remove build Folder (Carefully)
 
-Sources:
+# Summary
+
+The build system I have prepared may need to be modified. As I mentioned, it was prepared solely for educational purposes
+
+In this example i used STM32CubeMX to generate project template for STM32F103
+* Of course, it is not necessary to use STM32CubeMX **_the build system for unit tests is independent._** STM32CubeMX was used only to create template project for microcontroller.
+
+# Sources:
 * http://www.throwtheswitch.org/unity
 * https://stackoverflow.com/questions/32532999/double-foreach-in-makepp/32535737#32535737
 * https://www.gnu.org/software/make/manual/make.pdf
