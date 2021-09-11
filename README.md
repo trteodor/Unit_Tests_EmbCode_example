@@ -3,11 +3,17 @@ This project was made for educational purposes. I wanted to learn how to use the
 
 *http://www.throwtheswitch.org/unity
 
-I got acquainted with the syntax of makefiles and thanks to that **_I created my own build system_** for Unit Tests with Unity
+**_Video in which I explain a little more in a practical way about this project:_**
+
+"Link"
+
+In this video, I speak in Polish language
+
+After familiarizing myself with the "makefile" syntax, **_I created my own build system_** for Unit Tests with "Unity"
 * In my opinion, the created building system is very easy and convenient
 
 Why I decide create my own build system? When I was able to use Ceedlink..
-* I  wanted to get to know the makefile syntax and Ceedlink is not very intuitive for me(Or I just got to know him too little). 
+* I  wanted to get to know the makefile syntax and Ceedlink is not intuitive for me(Or I just got to know him too little). 
 
 ## Created compilation system, uses a non-recursive makefile and is fully independent
 * Evry one tested file may be compilated totally independent! :) 
@@ -48,10 +54,12 @@ The root of the makefile is obviously GNUmakefile. I used this name because Cube
 
 # Summary
 
-The build system I have prepared may need to be modified. As I mentioned, it was prepared solely for educational purposes
+The build system I have prepared may need to be modified. As I mentioned, this project was prepared solely for educational purposes
 
 In this example i used STM32CubeMX to generate project template for STM32F103
 * Of course, it is not necessary to use STM32CubeMX **_the build system for unit tests is independent._** STM32CubeMX was used only to create template project for microcontroller.
+
+With "Unity" we can also Testing hardware it isn't hard. Inaf just redirect corretly the printf function :) But i don't create any example to do it :( 
 
 # Sources:
 * [1] http://www.throwtheswitch.org/unity
