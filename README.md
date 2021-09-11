@@ -44,7 +44,7 @@ To compile this project i used:
 	6. call: make clean         -Remove build Folder (Carefully)
 
 
-The root of the makefile is obviously GNUmakefile. I used this name because CubeMX generates a "Makefile" and make start reading the GNUmakefile first (before "MakeFile) if exist (ref.[3]).
+The root of the makefile is obviously GNUmakefile. I used this name because CubeMX generates a "Makefile" and make start reading the GNUmakefile first (before "MakeFile") if exist (ref.[3]).
 
 # Summary
 
