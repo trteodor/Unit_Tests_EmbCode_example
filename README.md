@@ -1,5 +1,5 @@
 ## Hello,
-in this repository I learned how to use the Unity and Cmock framework, and the makefile syntax.
+in this project I learned how to use the Unity and Cmock framework, and the makefile syntax.
 * http://www.throwtheswitch.org/unity
 
 I got acquainted with the syntax of makefiles and thanks to that **_I created my own build system_** for Unit Tests with Unity
