@@ -25,7 +25,7 @@ To compile this project i used:
 * It means that it was possible to use this programs directly from the console
 
 
-#Call "make" in the project localisation to show this information:
+## Call "make" in the project localisation to show this information:
 
 	Call: make help    -show this information
 	How Use it:
