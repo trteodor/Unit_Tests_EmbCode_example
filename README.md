@@ -5,7 +5,7 @@ I got acquainted with the syntax of makefiles and thanks to that I built my own 
 * In my opinion, the created building system is very easy and convenient
 
 This example usage CubeMX to generate project template for STM32F103
-* Of course, it is not necessary to use STM32CubeMX **the build system for unit tests is independent.** STM32CubeMX only create template for microcontroller Project.
+* Of course, it is not necessary to use STM32CubeMX **_the build system for unit tests is independent._** STM32CubeMX only create template for microcontroller Project.
 * I am thinking of other microcontrollers like atmega, NXP, Renesas, MicroChip dk else ;) 
 
 Created build system using non recursive makefile
