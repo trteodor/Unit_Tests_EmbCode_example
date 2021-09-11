@@ -59,7 +59,7 @@ The build system I have prepared may need to be modified. As I mentioned, this p
 In this example i used STM32CubeMX to generate project template for STM32F103
 * Of course, it is not necessary to use STM32CubeMX **_the build system for unit tests is independent._** STM32CubeMX was used only to create template project for microcontroller.
 
-With "Unity" we can also Testing hardware it isn't hard. Inaf just redirect correctly the printf function. But prepared example don't support it. I added only examples files from [4] to this repository, if you trying run unit test on Hardware it may help you :) 
+With "Unity" we can also Testing hardware it is also very easy! Inaf just redirect correctly the printf function. But prepared example by me (this repo) don't presentation this function. I added only examples files from [4] to this repository, if you trying run unit test on Hardware it may help you :) 
 
 * Everything takes time ... And this is just a educational project ..;)
 
