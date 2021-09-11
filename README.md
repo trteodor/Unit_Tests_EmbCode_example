@@ -1,5 +1,5 @@
 ## Hello,
-This project was made for educational purposes. I wanted to learn how to use the "Unity" framework for unit testing. After completing this project, I know how to run unit tests, also in embedded systems! :) When I completed this project, I also got to know the makefile syntax a bit.
+This project/ example was made for educational purposes. I wanted to learn how to use the "Unity" framework for unit testing. After completing this project / example, I know how to run unit tests, also in embedded systems! :) When I completed this project, I also got to know the makefile syntax a bit.
 
 *http://www.throwtheswitch.org/unity
 
