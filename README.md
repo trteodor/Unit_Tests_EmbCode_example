@@ -61,7 +61,7 @@ In this example i used STM32CubeMX to generate project template for STM32F103
 
 With "Unity" we can also Testing hardware it is also **very easy!** Inaf just redirect correctly the printf function. But prepared example by me (this repo) don't presentation this function. I added only examples files from [4] "stm32F4_UnitTest_HW_Example" to this repository, if you trying run unit test on Hardware it may help you :) But you can always refer to [1], everything is very well described there. In Unity repository are examples.. also in CMock repository we can find few examples.
 
-* Everything takes time ... And this is just a educational project/ example, is maked in free time ..;)
+* Everything takes time ... And this is just a educational project/ example. It takes up free time ... :( ;)
 
 # Sources:
 * [1] http://www.throwtheswitch.org/unity
