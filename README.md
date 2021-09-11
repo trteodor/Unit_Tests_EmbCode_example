@@ -1,13 +1,13 @@
 ## Hello,
-in this project I learned how to use the Unity and Cmock framework, and the makefile syntax. After completing this project, I know how to run unit tests on embedded systems! :) I also know a bit of makefile syntax.
+This project was made for educational purposes. I wanted to learn how to use the "Unity" framework for unit testing in embedded systems. After completing this project, I know how to run unit tests in embedded systems! :) When I completed this project, I also got to know the makefile syntax a bit.
 
 *http://www.throwtheswitch.org/unity
 
 I got acquainted with the syntax of makefiles and thanks to that **_I created my own build system_** for Unit Tests with Unity
 * In my opinion, the created building system is very easy and convenient
 
-In this example i used STM32CubeMX to generate project template for STM32F103
-* Of course, it is not necessary to use STM32CubeMX **_the build system for unit tests is independent._** STM32CubeMX was used only to create template project for microcontroller.
+Why I decide create my own build system? I was able to use Ceedlink..
+* But I also wanted to get to know the makefile syntax and Ceedlink is not very intuitive for me
 
 ## Created build system which using non recursive makefile is fully independent
 * Evry one tested file may be compilated totally independent! :) 
@@ -27,7 +27,10 @@ To compile this project i used:
 		
 The build system I have prepared may need to be modified. As I mentioned, it was prepared solely for educational purposes
 
-## Call "make" in the project localisation to show this information:
+In this example i used STM32CubeMX to generate project template for STM32F103
+* Of course, it is not necessary to use STM32CubeMX **_the build system for unit tests is independent._** STM32CubeMX was used only to create template project for microcontroller.
+
+## Call "make" in this example project at him location to show this information:
 
 	Call: make help    -show this information
 	How Use it:
