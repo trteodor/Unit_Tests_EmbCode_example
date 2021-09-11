@@ -1,0 +1,9 @@
+[submodule "thirdparty"]
+	path = thirdparty
+	url = https://github.com/ThrowTheSwitch/Unity/
+[submodule "third_party/Unity"]
+	path = third_party/Unity
+	url = https://github.com/ThrowTheSwitch/Unity/
+[submodule "third_party/CMock"]
+	path = third_party/CMock
+	url = https://github.com/ThrowTheSwitch/CMock

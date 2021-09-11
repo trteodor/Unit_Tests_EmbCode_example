@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "anothersamplefile.h": "c",
+        "unity.h": "c",
+        "cmock.h": "c",
+        "samplefiletout.h": "c",
+        "mock_anothersamplefile.h": "c",
+        "mock_samplefiletout.h": "c"
+    }
+}
