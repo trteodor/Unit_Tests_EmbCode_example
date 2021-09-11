@@ -31,7 +31,7 @@ COVERAGE_SOURCEDIR :=
 #######################################
 #@@@@@TODO@@@@TODO
 # comiplation header dependencies
-# gcovr behavior with diffrent source folder
+# testing gcovr behavior with diffrent source folder
 #######################################
 # -include $(BUILD_DIR)%.d
 
