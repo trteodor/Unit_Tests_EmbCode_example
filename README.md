@@ -1,7 +1,7 @@
-* Hello, in this reposirory i'am learning how use Unity and Cmock framework for unit test in embedded systems:
+Hello, in this reposirory i'am learning how use Unity and Cmock framework for unit test in embedded systems:
 * http://www.throwtheswitch.org/unity
 
-* I also got acquainted with the syntax of makefiles and thanks to that I built my own build system
+I also got acquainted with the syntax of makefiles and thanks to that I built my own build system
 * In my opinion, the created building system is very easy and convenient
 
 This example usage CubeMX to generate project template for STM32F103
