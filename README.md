@@ -59,9 +59,11 @@ The build system I have prepared may need to be modified. As I mentioned, this p
 In this example i used STM32CubeMX to generate project template for STM32F103
 * Of course, it is not necessary to use STM32CubeMX **_the build system for unit tests is independent._** STM32CubeMX was used only to create template project for microcontroller.
 
-With "Unity" we can also Testing hardware it isn't hard. Inaf just redirect corretly the printf function :) But i don't create any example to do it :( 
+With "Unity" we can also Testing hardware it isn't hard. Inaf just redirect correctly the printf function :) But i don't create any example to do it :( 
 
 # Sources:
 * [1] http://www.throwtheswitch.org/unity
 * [2] https://stackoverflow.com/questions/32532999/double-foreach-in-makepp/32535737#32535737
 * [3] https://www.gnu.org/software/make/manual/make.pdf
+* [4] https://elektronika327.blogspot.com/2019/07/stm32f4-unit-test-unity.html - Simple example how to do Tests directly Hardware
+* [5] https://drive.google.com/file/d/1cQthFvgZRi9WwH3EkqLLRv0-jYJlCnEa/view?usp=sharing Example Files from [4]
