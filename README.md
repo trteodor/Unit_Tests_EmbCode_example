@@ -2,7 +2,7 @@
 in this repository I learned how to use the Unity and Cmock framework, and the makefile syntax.
 * http://www.throwtheswitch.org/unity
 
-I got acquainted with the syntax of makefiles and thanks to that **_I created my own build system_**
+I got acquainted with the syntax of makefiles and thanks to that **_I created my own build system_** for Unit Tests with Unity
 * In my opinion, the created building system is very easy and convenient
 
 In this example i used STM32CubeMX to generate project template for STM32F103
