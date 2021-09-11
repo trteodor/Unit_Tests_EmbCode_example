@@ -9,7 +9,7 @@ I got acquainted with the syntax of makefiles and thanks to that **_I created my
 Why I decide create my own build system? When I was able to use Ceedlink..
 * I  wanted to get to know the makefile syntax and Ceedlink is not very intuitive for me(Or I just got to know him too little). 
 
-## Created build system which using non recursive makefile is fully independent
+## Created compilation system, uses a non-recursive makefile and is fully independent
 * Evry one tested file may be compilated totally independent! :) 
 	* It may be benefits
 * Support for Coverage report with gcovr
