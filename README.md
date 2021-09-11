@@ -12,11 +12,13 @@ To compile this project i used:
 * ruby 2.7.4p191
 * gcovr 5.0
 * gcc 6.3.0
-* 
+
+
 * These programs obviously had to be in the ("PATH") path of environment variables
 * It means that it was possible to use this programs directly from the console
 
-* Call "make" in the project localisation to show this information:
+
+Call "make" in the project localisation to show this information:
 
 *help:
 	@echo     Call: make help \ \ \ -show this information
