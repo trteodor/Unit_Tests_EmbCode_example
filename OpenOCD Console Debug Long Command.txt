@@ -1,0 +1,1 @@
+C:\OpenOCD\bin\openocd -f C:\OpenOCD\share\openocd\scripts\interface\stlink.cfg -f C:\OpenOCD\share\openocd\scripts\target\stm32f1x.cfg -s C:\OpenOCD\share\openocd\scripts
