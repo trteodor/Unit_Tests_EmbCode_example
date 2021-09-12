@@ -1,5 +1,5 @@
 ## Hello,
-This project was made for educational purposes. I wanted to learn how to use the "Unity" framework for unit testing in embedded systems. After completing this project, I know how to run unit tests in embedded systems! :) When I completed this project, I also got to know the makefile syntax a bit.
+This project/ example was made for educational purposes. I wanted to learn how to use the "Unity" framework for unit testing. After completing this project / example, I know how to run unit tests, also in embedded systems! :) When I completed this project, I also got to know the makefile syntax a bit.
 
 *http://www.throwtheswitch.org/unity
 
@@ -54,14 +54,18 @@ The root of the makefile is obviously GNUmakefile. I used this name because Cube
 
 # Summary
 
-The build system I have prepared may need to be modified. As I mentioned, this project was prepared solely for educational purposes
+The build system I have prepared may need to be modified. As I mentioned, this example was prepared solely for educational purposes
 
 In this example i used STM32CubeMX to generate project template for STM32F103
 * Of course, it is not necessary to use STM32CubeMX **_the build system for unit tests is independent._** STM32CubeMX was used only to create template project for microcontroller.
 
-With "Unity" we can also Testing hardware it isn't hard. Inaf just redirect corretly the printf function :) But i don't create any example to do it :( 
+With "Unity" we can also Testing hardware it is also **very easy!** Inaf just redirect correctly the printf function. But prepared example by me (this repo) don't presentation this function. I added only examples files from [4] "stm32F4_UnitTest_HW_Example" to this repository, if you trying run unit test on Hardware it may help you :) But you can always refer to [1], everything is very well described there. In Unity repository are examples.. also in CMock repository we can find few examples.
+
+* Everything takes time up free time ... :( ;)
 
 # Sources:
 * [1] http://www.throwtheswitch.org/unity
 * [2] https://stackoverflow.com/questions/32532999/double-foreach-in-makepp/32535737#32535737
 * [3] https://www.gnu.org/software/make/manual/make.pdf
+* [4] https://elektronika327.blogspot.com/2019/07/stm32f4-unit-test-unity.html - Simple example how to do Tests directly on Hardware
+* [5] https://drive.google.com/file/d/1cQthFvgZRi9WwH3EkqLLRv0-jYJlCnEa/view?usp=sharing Files from [4]
