@@ -1,3 +1,5 @@
+**_To download this repository tap in your command line:_**
+* git clone --recursive https://github.com/trteodor/UnitTest_InEmbedded_Ex_OnSTM32F103RB_Unity_non-recmake
 ## Hello,
 This project/ example was made for educational purposes. I wanted to learn how to use the "Unity" framework for unit testing. After completing this project / example, I know how to run unit tests, also in embedded systems! :) When I completed this project, I also got to know the makefile syntax a bit.
 
@@ -19,9 +21,6 @@ Why I decide create my own build system? When I was able to use Ceedlink..
 * Evry one tested file may be compilated totally independent! :) 
 	* It may be benefits
 * Support for Coverage report with gcovr
-
-To download this repository tap in your command line:
-* git clone --recursive https://github.com/trteodor/UnitTest_InEmbedded_Ex_OnSTM32F103RB_Unity_non-recmake
 
 Now you can start your adventure! :) 
 
