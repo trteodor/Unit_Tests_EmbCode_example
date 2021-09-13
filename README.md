@@ -6,7 +6,9 @@
 This project/ example was made for educational purposes. I wanted to learn how to use the "Unity" framework for unit testing. After completing this project / example, I know how to run unit tests, also in embedded systems! :) When I completed this project, I also got to know the makefile syntax a bit.
 
 **_Video in which I explain a little more in a practical way about this project:_**
+
 https://youtu.be/JcfHbPxRYw8 part 1 - Visual Code integration with STM32
+
 https://youtu.be/N4Bqh_n5f1A part 2 - Usage - "Unity" framework
 
 In this video, I speak in Polish language
