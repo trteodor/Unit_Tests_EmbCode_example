@@ -1,6 +1,3 @@
-**_To download this repository tap in your command line:_**
-* git clone --recursive https://github.com/trteodor/UnitTest_InEmbedded_Ex_OnSTM32F103RB_Unity_non-recmake
-
 **_This example /project is an example of how to get started with unit testing in embedded systems_**
 
 **with:** http://www.throwtheswitch.org/unity
@@ -37,6 +34,11 @@ To compile this project i used:
 		* It means that it was possible to use this programs directly from the console
 
 ## How start with this example?
+
+**_To download this repository tap in your command line:_**
+* git clone --recursive https://github.com/trteodor/UnitTest_InEmbedded_Ex_OnSTM32F103RB_Unity_non-recmake
+
+And:
 
  **_Call "make" in this example project at him location to show this information:_**
 
