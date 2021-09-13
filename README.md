@@ -24,9 +24,6 @@ Why I decide create my own build system? When I was able to use Ceedlink..
 	* It may be benefits
 * Support for Coverage report with gcovr
 
-Now you can start your adventure! :) 
-
-
 To compile this project i used:
 * GNU Make 3.81
 * ruby 2.7.4p191
@@ -34,6 +31,9 @@ To compile this project i used:
 * gcc 6.3.0
 	* These programs obviously had to be in the ("PATH") path of environment variables
 		* It means that it was possible to use this programs directly from the console
+
+Now you can start your adventure! :) 
+
 
 ## How start with this example?
 
