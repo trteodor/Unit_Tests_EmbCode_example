@@ -1,5 +1,8 @@
 **_To download this repository tap in your command line:_**
 * git clone --recursive https://github.com/trteodor/UnitTest_InEmbedded_Ex_OnSTM32F103RB_Unity_non-recmake
+
+**_This example /project is an example of how to get started with unit testing in embedded systems_**
+
 ## Hello,
 This project/ example was made for educational purposes. I wanted to learn how to use the "Unity" framework for unit testing. After completing this project / example, I know how to run unit tests, also in embedded systems! :) When I completed this project, I also got to know the makefile syntax a bit.
 
