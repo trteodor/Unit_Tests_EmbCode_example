@@ -5,6 +5,8 @@ This project/ example was made for educational purposes. I wanted to learn how t
 
 *http://www.throwtheswitch.org/unity
 
+**_This example is an example of how to get started with unit testing in embedded systems_**
+
 **_Video in which I explain a little more in a practical way about this project:_**
 
 "Link"
