@@ -36,7 +36,7 @@ To compile this project i used:
 	* These programs obviously had to be in the ("PATH") path of environment variables
 		* It means that it was possible to use this programs directly from the console
 
-##How use it?
+## How start with this example?
 
  **_Call "make" in this example project at him location to show this information:_**
 
