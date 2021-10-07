@@ -31,7 +31,7 @@ To compile this project i used:
 * gcc 6.3.0
 * arm-none-eabi-gcc 10.2.1
 	* These programs obviously had to be in the ("PATH") path of environment variables
-		* It means that it was possible to use this programs directly from the console
+		* It means that it was possible to use this programs directly from the console evrywhere! ;) 
 
 Now you can start your adventure! :) 
 
